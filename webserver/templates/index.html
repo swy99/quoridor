@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>GAMUL</title>
+<style type="text/css">
+    html, body, div, canvas {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+<body style="overflow:hidden;">
+    <div id="textbox">connecting</div>
+    <canvas id="canvas">This browser is not supported.</canvas>
+</body>
+<script src="{{ url_for('static', filename='board.js') }}" > </script>
+<script src="{{ url_for('static', filename='canvas.js') }}" > </script>
+<script src="{{ url_for('static', filename='game.js') }}" > </script>
